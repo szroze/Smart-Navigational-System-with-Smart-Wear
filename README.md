@@ -11,6 +11,10 @@ In this project, as the Android hardware was an Android version 13, an updated n
 https://github.com/jarlisson2/NotificationStyleAIX
 
 
+
+
+
+
 HOW TO:
 
 Install the Smart Cane Android application on your Android. For Android versions 12+, one must manually provide permissions for the application to function appropriately in the application setting. Click on the application setting, and grant the application all required permissions, especially the permission to connect to other devices. This is crucial since the Android device will be connecting to the smart cane hardware via Bluetooth.
