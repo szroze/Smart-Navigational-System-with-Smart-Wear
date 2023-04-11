@@ -12,13 +12,16 @@ https://github.com/jarlisson2/NotificationStyleAIX
 
 
 
-
-
-
-HOW TO:
+HOW TO <Android APP>:
 
 Install the Smart Cane Android application on your Android. For Android versions 12+, one must manually provide permissions for the application to function appropriately in the application setting. Click on the application setting, and grant the application all required permissions, especially the permission to connect to other devices. This is crucial since the Android device will be connecting to the smart cane hardware via Bluetooth.
 
 Once all necessary permissions are granted, click on the application and tap on the "Connect Bluetooth" tab. Select the bluetooth module, which, in this case, is the HC-06, and connect the device to the bluetooth module in Arduino. Make sure the bluetooth module is not connected prior to another device.
 
 Once the connection is established, the application will provide vibration and sound alerts when the ultrasonic sensor detects an obstacle. Once the experience is complete, turn off the application to de-connect from the smart cane bluetooth.
+
+
+HOW TO <Arduino>:
+
+Connect the Arduino Uno board to the computer via a USB cable. Open Arduino IDE and upload the Obstacle Detection code to the Arduino board. In this, make sure you select the correct Arduino board and port to successfully upload the program to the Arduino. Once the upload is complete, unplug the USB cable and attach the Arduino board to a battery so that the smart cane hardware can function in wireless settings.
+
