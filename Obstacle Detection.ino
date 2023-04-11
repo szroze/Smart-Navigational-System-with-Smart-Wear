@@ -1,5 +1,5 @@
 #include <SoftwareSerial.h>
-#define maxDistance 100
+#define maxDistance 120
 
 
 SoftwareSerial HC05(2, 1); //Rx, Tx
